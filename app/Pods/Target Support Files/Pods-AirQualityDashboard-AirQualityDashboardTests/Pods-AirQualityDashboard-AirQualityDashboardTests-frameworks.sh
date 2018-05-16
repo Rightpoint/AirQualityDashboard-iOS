@@ -147,6 +147,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Anchorage/Anchorage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BLEAirQuality/BLEAirQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BonMot/BonMot.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
   install_framework "${PODS_ROOT}/Instabug/Instabug.framework"
   install_dsym "${PODS_ROOT}/Instabug/Instabug.framework.dSYM"
   install_framework "${PODS_ROOT}/Instabug/InstabugCore.framework"
@@ -154,8 +156,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RZBluetooth/RZBluetooth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/React/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SimulatorStatusMagic/SimulatorStatusMagic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Swiftilities/Swiftilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework"
 fi
 if [[ "$CONFIGURATION" == "Develop" ]]; then
@@ -163,6 +168,8 @@ if [[ "$CONFIGURATION" == "Develop" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Anchorage/Anchorage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BLEAirQuality/BLEAirQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BonMot/BonMot.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
   install_framework "${PODS_ROOT}/Instabug/Instabug.framework"
   install_dsym "${PODS_ROOT}/Instabug/Instabug.framework.dSYM"
   install_framework "${PODS_ROOT}/Instabug/InstabugCore.framework"
@@ -170,7 +177,10 @@ if [[ "$CONFIGURATION" == "Develop" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RZBluetooth/RZBluetooth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/React/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Swiftilities/Swiftilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework"
 fi
 if [[ "$CONFIGURATION" == "Sprint" ]]; then
@@ -178,6 +188,8 @@ if [[ "$CONFIGURATION" == "Sprint" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Anchorage/Anchorage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BLEAirQuality/BLEAirQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BonMot/BonMot.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
   install_framework "${PODS_ROOT}/Instabug/Instabug.framework"
   install_dsym "${PODS_ROOT}/Instabug/Instabug.framework.dSYM"
   install_framework "${PODS_ROOT}/Instabug/InstabugCore.framework"
@@ -185,7 +197,10 @@ if [[ "$CONFIGURATION" == "Sprint" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RZBluetooth/RZBluetooth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/React/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Swiftilities/Swiftilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework"
 fi
 if [[ "$CONFIGURATION" == "AppStore" ]]; then
@@ -193,6 +208,8 @@ if [[ "$CONFIGURATION" == "AppStore" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Anchorage/Anchorage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BLEAirQuality/BLEAirQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BonMot/BonMot.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
   install_framework "${PODS_ROOT}/Instabug/Instabug.framework"
   install_dsym "${PODS_ROOT}/Instabug/Instabug.framework.dSYM"
   install_framework "${PODS_ROOT}/Instabug/InstabugCore.framework"
@@ -200,7 +217,10 @@ if [[ "$CONFIGURATION" == "AppStore" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RZBluetooth/RZBluetooth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/React/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Swiftilities/Swiftilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

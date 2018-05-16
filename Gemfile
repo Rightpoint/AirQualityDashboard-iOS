@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "cocoapods-fix-react-native", :git => 'https://github.com/orta/cocoapods-fix-react-native.git', :branch => 'master'
+
 gem 'danger'
 gem 'danger-swiftlint'
 gem 'danger-xcov'
