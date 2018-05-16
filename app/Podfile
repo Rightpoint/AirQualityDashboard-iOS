@@ -6,6 +6,7 @@ def shared
     pod 'Marshal'
     pod 'KeychainAccess'
     pod 'BonMot'
+    pod 'BLEAirQuality', :path => './Submodules/BLEAirQuality'
     pod 'Alamofire'
     pod 'Anchorage'
     pod 'Swiftilities'

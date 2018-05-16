@@ -1,0 +1,6 @@
+framework module BLEAirQuality {
+  umbrella header "BLEAirQuality-umbrella.h"
+
+  export *
+  module * { export * }
+}

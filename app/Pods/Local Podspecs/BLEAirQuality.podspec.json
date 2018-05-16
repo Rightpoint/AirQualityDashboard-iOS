@@ -1,0 +1,29 @@
+{
+  "name": "BLEAirQuality",
+  "version": "0.1.0",
+  "summary": "A short description of BLEAirQuality.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Raizlabs/BLEAirQuality",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chris Ballinger": "chris.ballinger@raizlabs.com"
+  },
+  "source": {
+    "git": "https://github.com/Raizlabs/BLEAirQuality.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10",
+    "ios": "8.0",
+    "watchos": "4.0"
+  },
+  "source_files": "BLEAirQuality/Classes/**/*",
+  "dependencies": {
+    "RZBluetooth": [
+
+    ]
+  }
+}

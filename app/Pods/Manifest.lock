@@ -1,6 +1,8 @@
 PODS:
   - Alamofire (4.7.2)
   - Anchorage (4.2.2)
+  - BLEAirQuality (0.1.0):
+    - RZBluetooth
   - BonMot (5.2)
   - Crashlytics (3.10.1):
     - Fabric (~> 1.7.5)
@@ -27,6 +29,9 @@ PODS:
   - OHHTTPStubs/OHPathHelpers (6.1.0)
   - OHHTTPStubs/Swift (6.1.0):
     - OHHTTPStubs/Default
+  - RZBluetooth (1.2.2):
+    - RZBluetooth/Core (= 1.2.2)
+  - RZBluetooth/Core (1.2.2)
   - SimulatorStatusMagic (2.1)
   - Sourcery (0.12.0)
   - SwiftGen (5.3.0)
@@ -92,6 +97,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Anchorage
+  - BLEAirQuality (from `./Submodules/BLEAirQuality`)
   - BonMot
   - Crashlytics
   - GoogleAnalytics (~> 3.0)
@@ -117,15 +123,21 @@ SPEC REPOS:
     - KeychainAccess
     - Marshal
     - OHHTTPStubs
+    - RZBluetooth
     - SimulatorStatusMagic
     - Sourcery
     - SwiftGen
     - Swiftilities
     - SwiftLint
 
+EXTERNAL SOURCES:
+  BLEAirQuality:
+    :path: "./Submodules/BLEAirQuality"
+
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Anchorage: cba8707ea6475f604e04047882ba47c07e4b2ac1
+  BLEAirQuality: e0cea802e7a501fa18a2427b4241340a68b69989
   BonMot: 68da0bd7c2f602aca85511bedabd211eb0fae666
   Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
   Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
@@ -134,12 +146,13 @@ SPEC CHECKSUMS:
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
   Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  RZBluetooth: 80278a1e941644224554040b7d0f6418b7a99291
   SimulatorStatusMagic: 481558caf2b9ccb2ceba2cc193728d4db3dcac07
   Sourcery: 10fa92cd8890864856ee3657ca460d597ebc064b
   SwiftGen: 4379bd3640b0a212a0f6ea3c494adba385513d10
   Swiftilities: be5be2c1770bc689f1d63a0fa5ad8b359f474a92
   SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
 
-PODFILE CHECKSUM: 494893eed8e8a118e6f85e35d437acfe11fc5de8
+PODFILE CHECKSUM: ab71ea142db59c176085ba5baadfb90ee387511b
 
 COCOAPODS: 1.5.0
