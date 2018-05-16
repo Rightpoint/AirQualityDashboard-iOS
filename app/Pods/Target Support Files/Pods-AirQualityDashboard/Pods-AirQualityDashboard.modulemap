@@ -1,0 +1,6 @@
+framework module Pods_AirQualityDashboard {
+  umbrella header "Pods-AirQualityDashboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

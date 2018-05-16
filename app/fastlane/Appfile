@@ -1,0 +1,4 @@
+app_identifier "com.Raizlabs.AirQualityDashboard" # The bundle identifier of your app
+apple_id "eliot.williams@raizlabs.com"
+
+team_id "TEAMID"  # Developer Portal Team ID
