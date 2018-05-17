@@ -16,6 +16,15 @@ To get started, see [Contributing](#contributing)
 
 ## Setup
 
+### React Native
+
+```
+$ brew install yarn
+$ yarn global add react-native-cli
+$ cd app/React
+$ react-native bundle --entry-file index.js --platform ios --dev false --bundle-output main.jsbundle --assets-dest assets
+```
+
 #### Codecov
 
 You can use [Codecov](https://codecov.io) automatically as long as the repository's owner is a paid Codecov member (assuming this is a private repo).
