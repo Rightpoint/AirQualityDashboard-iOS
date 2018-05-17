@@ -20,9 +20,10 @@ class ReactNativeViewController: UIViewController {
                 ["name":"Joel", "value":"10"]
             ]
         ]
-        guard let bundle = Bundle.main.url(forResource: "main", withExtension: "jsbundle"),
-            let rootView = RCTRootView(
-            bundleURL: bundle,
+        let url = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
+        // let url = Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+        guard let rootView = RCTRootView(
+            bundleURL: url,
             moduleName: "RNHighScores",
             initialProperties: mockData as [NSObject : AnyObject],
             launchOptions: nil

@@ -22,6 +22,9 @@ To get started, see [Contributing](#contributing)
 $ brew install yarn
 $ yarn global add react-native-cli
 $ cd app/React
+# For debugging
+$ react-native start
+# To make a static bundle for deploying on device
 $ react-native bundle --entry-file index.js --platform ios --dev false --bundle-output main.jsbundle --assets-dest assets
 ```
 
