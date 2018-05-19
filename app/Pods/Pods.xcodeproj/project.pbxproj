@@ -99,7 +99,7 @@
 		1BE6D66BBA6C906F1637F881AB7E83E9 /* RCTNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE1F5631C660C3213D2934B922D639 /* RCTNetworkTask.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1C02371ED3EA1EEB88A2E075475EA13B /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = EB205CC52C5F98222262DDBFB6E2DC16 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C2907CB1CD4C7FA965E6B190172DB3B /* Folly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A987AF84D88725B58AD18812C4D121F3 /* Folly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C6E18ADE1449DB8A3D902E24764DE01 /* BLEAirQuality-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0715D4E4880C90C384AF2CE27A149EAB /* BLEAirQuality-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6E18ADE1449DB8A3D902E24764DE01 /* BLEAirQuality-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA2502CD9D8FB1C5CFEAE76EFE1BD3E /* BLEAirQuality-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CDA1970975E1E47C82B542A98D57E6B /* RCTRootContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7463DDC9F721842B04C6751E9BC33875 /* RCTRootContentView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1D36DBBB99E3E1389EE5A7FC41017191 /* RCTInputAccessoryViewContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D01F1BEF2DF21A8FCA600099557BD99 /* RCTInputAccessoryViewContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D3E4465D2C34376ECF0A61321660DFA /* CGSize+DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B96D0E20DF69CC78F019E2D2A98D40 /* CGSize+DeviceSize.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -182,7 +182,6 @@
 		35C8BEA8C7DF9E5B38F77F1F5CECAA9F /* folly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAF8EFE3A47D7F0BE7BDDA95E832462 /* folly.framework */; };
 		362FD25C7C9A24CE6A1C9218A90AE29B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766AC8FDB4525E33FDDF68C972919CC /* Request.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		366A28FC8742C864D8A19D43E62CAF16 /* vlog_is_on.cc in Sources */ = {isa = PBXBuildFile; fileRef = 91AB0FA1744D5D2FCCD44DD456D06A58 /* vlog_is_on.cc */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		36CAD4B750E0AED6E0A63779065AC7EE /* BLEAirQuality-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7AB9E2143B512EE7993DA908C2FF8 /* BLEAirQuality-dummy.m */; };
 		370A1BA523E19F6BD3BEC731A486CBC0 /* AttributedStringTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB9ABB77D838819C4493F266D42467 /* AttributedStringTransformation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		372A8F37492B2E74F50D6BAFBD70298B /* DefaultBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207814E82CC3222C44FF5F6D5DEF4837 /* DefaultBehaviors.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		37EA80CF449347BA00FDC11B5FAD7993 /* RCTTabBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FBD7BBEF449836B9359044F426761 /* RCTTabBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -384,6 +383,7 @@
 		7B96F0416CCC02A7A4578AA89AAC9FF9 /* YGNodePrint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF5418A06F730C847FEB9C672E60A25B /* YGNodePrint.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7B9DBAAAF7752D32EB7C98D96A138F75 /* RZBCommandDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9797018DD1A71F740CB89AA207D20680 /* RZBCommandDispatch.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7BEB06FC7556119FD8726E4271494A08 /* RCTTextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B7142825A6A26072020A750AD6389E /* RCTTextSelection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7DDD4278B56A2F5904904CE75773E70D /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6444B31D020F4D144B0A2671112033E6 /* Sensor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7DF12B451AF53CA88D18795B49241B74 /* JSCExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = B344DB711990609C2E3D0C69203AF110 /* JSCExecutor.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7DFEEAC5F0B8A2F3180B918720E48C01 /* RCTView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2C3323DC1B903A3005C79F2B0A160C /* RCTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E1FA97572AD9BE3F72DA11B85AFD9BD /* SimulatorStatusMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9421D2FF54438C77282945052EE9B9 /* SimulatorStatusMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -732,6 +732,7 @@
 		F4A0EAAD7E8A981C9D9A69EFE437AD1D /* RZBUUIDPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A0723C71EA71A256B1A2DAA3B0AC3F /* RZBUUIDPath.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F521FBF21E3E854C927A48691C904EB6 /* Instance.h in Headers */ = {isa = PBXBuildFile; fileRef = 417A1702CEE44EAE44E02056B9CA7501 /* Instance.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F53EE5071F090DCA77B932492955F036 /* Unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9C60C24A06E19B980251003C9262E73 /* Unicode.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F564A95DD6E853E4E136AD9A4A82352C /* BLEAirQuality-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604ED67D8650DC3C46A6CA0909C1DDB /* BLEAirQuality-dummy.m */; };
 		F570B1C50AA0DFD6A1847B6AA6AC93CB /* NSDataBigString.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3162737A6DCE5302DFB8673908ABA4E9 /* NSDataBigString.mm */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F659A3482C1E25DF8882F8DEB1E5A2BD /* MutableCopying.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E1AE6564CC63F4201334B22B21F62F /* MutableCopying.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F66687521FB4077228ED09A41BBC988F /* NativeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E79793535B33848659FB3B3EEE1B5792 /* NativeModule.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -752,7 +753,6 @@
 		FAFFF5A2E0089AF89379582A94CE5D3F /* NSTextStorage+FontScaling.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A9B5B2F1C0464B1A2F43AA33B7CCA9 /* NSTextStorage+FontScaling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB21D22619C76BDCCCED034D5754203A /* RCTCxxBridgeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDD9E3FE8BBA53C272A4B09C768BE7D /* RCTCxxBridgeDelegate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FB40A6B14AB31C5E38DD3680BD78C205 /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = AE22F3B608B29A5EC4B6609E5D3C5778 /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FC69E89A42E36DE9464B275DDC7851ED /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C457CF06909B88EFC34F56A50D27C7E /* ReplaceMe.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FCB83833C7CFFAAB97C6969738AC1D80 /* RCTNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 995D271D933DE5FCBEE968925DCD77A7 /* RCTNavigator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FCFE1185089657925CC31859076A479B /* RCTRefreshControlManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F20B007E3C046D6200007D6F1945633F /* RCTRefreshControlManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD3F6D792E66C0D3F2EF02A6E7320DBA /* RCTJavaScriptLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7D7E8748285DEEAE18EB92F9E61C69 /* RCTJavaScriptLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1107,8 +1107,6 @@
 		05EF53ECDCDC26DC3DE302A1D9DF8785 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = Sources/Migration.swift; sourceTree = "<group>"; };
 		05EFBF01A90B867E3D730DC1973AED59 /* RCTUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUITextField.m; sourceTree = "<group>"; };
 		060184FD2B69B3C9C4036BC445DCEC36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		068A44905496A09D0C3D98D9EC5613DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0715D4E4880C90C384AF2CE27A149EAB /* BLEAirQuality-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLEAirQuality-umbrella.h"; sourceTree = "<group>"; };
 		0778851B01E9D53CC736B5F1C4260C06 /* Swiftilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swiftilities.modulemap; sourceTree = "<group>"; };
 		07A2CB54C6AE350491581910DD601E5D /* RZBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBluetooth.h; path = RZBluetooth/RZBluetooth.h; sourceTree = "<group>"; };
 		07CF2AF46A3C57634385E8C7C9C90AF5 /* RCTAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAssert.h; sourceTree = "<group>"; };
@@ -1119,7 +1117,6 @@
 		086154FB5BBEAEB3AA1CD94B70C0CCD1 /* RZBErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBErrors.m; path = RZBluetooth/RZBErrors.m; sourceTree = "<group>"; };
 		08B202E0AB021E11C92D3FABF2CFE88A /* JSBigString.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSBigString.cpp; path = ReactCommon/cxxreact/JSBigString.cpp; sourceTree = "<group>"; };
 		08DC19B88D4D80C873891F05B459DB8E /* RCTFPSGraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFPSGraph.h; sourceTree = "<group>"; };
-		092243D92A71A088825A946DEC6E9F68 /* BLEAirQuality.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLEAirQuality.modulemap; sourceTree = "<group>"; };
 		09512861E997EFD9E39829646B9C581C /* Tracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tracking.swift; path = Sources/Tracking.swift; sourceTree = "<group>"; };
 		096AF7FD834FD356BA415A5AC55AD99A /* RCTLayoutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLayoutAnimation.h; sourceTree = "<group>"; };
 		0988DD4F3AA32D74FBFD6482272EACA6 /* json.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = json.cpp; path = folly/json.cpp; sourceTree = "<group>"; };
@@ -1131,7 +1128,6 @@
 		0A8056EF4AD3C135A2C7AE0A4A369368 /* RCTProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTProfile.h; sourceTree = "<group>"; };
 		0A8191DFBAF1571C82E8AEA695AC4323 /* RCTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLog.h; sourceTree = "<group>"; };
 		0A9A35F7E6EFC573304D5CA7743B6424 /* RCTFabricSurfaceHostingProxyRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFabricSurfaceHostingProxyRootView.h; sourceTree = "<group>"; };
-		0AC7AB9E2143B512EE7993DA908C2FF8 /* BLEAirQuality-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLEAirQuality-dummy.m"; sourceTree = "<group>"; };
 		0AD1923A9C137092EC07C8C26542BCD9 /* Swiftilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swiftilities.xcconfig; sourceTree = "<group>"; };
 		0B1015EB51BC970FFC02738CC659F773 /* RCTJSCHelpers.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTJSCHelpers.mm; sourceTree = "<group>"; };
 		0B505A3C1CD65721E721DBE4D52CEE04 /* AppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppInfo.swift; path = Pod/Classes/AboutView/AppInfo.swift; sourceTree = "<group>"; };
@@ -1150,6 +1146,7 @@
 		0D6A8721510CED5DFDD4A1DC793393B8 /* RCTTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTabBar.h; sourceTree = "<group>"; };
 		0D833F6FECFF4DECF5F03EC84551BE81 /* RCTEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTEventDispatcher.h; sourceTree = "<group>"; };
 		0E54769B9FB1725F4249FBC261E33F28 /* JSBundleType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSBundleType.h; path = ReactCommon/cxxreact/JSBundleType.h; sourceTree = "<group>"; };
+		0E791D6DC753F9E4F33ED65C025EC4BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0EBBA2B02477129405C99B562F0FA490 /* RCTTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTextView.m; sourceTree = "<group>"; };
 		0F23994D464269CA8CEAE37D2702B537 /* RCTDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDeviceInfo.h; sourceTree = "<group>"; };
 		0F531B086DDEF2D14D005535A6A04F97 /* RCTSafeAreaViewLocalData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSafeAreaViewLocalData.m; sourceTree = "<group>"; };
@@ -1258,6 +1255,7 @@
 		2FC1C9FE4E15EF1659A34B7C5C547466 /* JSCUtils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSCUtils.cpp; path = ReactCommon/cxxreact/JSCUtils.cpp; sourceTree = "<group>"; };
 		2FE2BC223E97FC100060D8FF1BEA94E8 /* RCTInputAccessoryViewContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInputAccessoryViewContent.m; sourceTree = "<group>"; };
 		30076F85937534838E5FF3D8559CA23A /* RCTConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTConvert.h; sourceTree = "<group>"; };
+		30443CE90152BA53DAF9EBF68BCBA841 /* BLEAirQuality.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BLEAirQuality.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		30CB817FA93544031B70C3601ACA2215 /* RCTJavaScriptExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJavaScriptExecutor.h; sourceTree = "<group>"; };
 		3162737A6DCE5302DFB8673908ABA4E9 /* NSDataBigString.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NSDataBigString.mm; sourceTree = "<group>"; };
 		3282E23E04EFD85F131C143930FD398D /* RCTDatePickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDatePickerManager.h; sourceTree = "<group>"; };
@@ -1270,7 +1268,6 @@
 		350FC5A6DAC72765B2AC8E50D8C249D1 /* RCTProgressViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTProgressViewManager.h; sourceTree = "<group>"; };
 		35BE175FF6C13943194514C2D0805237 /* InspectorInterfaces.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = InspectorInterfaces.cpp; path = ReactCommon/jsinspector/InspectorInterfaces.cpp; sourceTree = "<group>"; };
 		35CBD5FB0F004550C5791AADDD2F9A8F /* JSBundleType.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSBundleType.cpp; path = ReactCommon/cxxreact/JSBundleType.cpp; sourceTree = "<group>"; };
-		35DD5982BFD336D51410D83B7E2B5BB0 /* BLEAirQuality.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BLEAirQuality.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		367BAEC50E66158007C0A48BC04ED96C /* RCTMaskedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMaskedView.m; sourceTree = "<group>"; };
 		36A25EB606C31F635EA918FBC164659E /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
 		36AD3FF3020FF7F59CB72E1F5454EA42 /* RCTWebViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTWebViewManager.h; sourceTree = "<group>"; };
@@ -1286,6 +1283,7 @@
 		390D453996BA2DD377A7D8D78F348DA4 /* Pods-AirQualityDashboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirQualityDashboard.modulemap"; sourceTree = "<group>"; };
 		39F345BE651ADEA8374404A669F604AB /* yoga-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "yoga-prefix.pch"; sourceTree = "<group>"; };
 		3A05F9305571AAA3557774B9F7AFABF8 /* RCTBridge+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Private.h"; sourceTree = "<group>"; };
+		3A86FE201B7B92EB3DED5B9F26ED7A86 /* BLEAirQuality-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLEAirQuality-prefix.pch"; sourceTree = "<group>"; };
 		3ADDEAA6C7D6A0E688D0E8555381CA16 /* RCTJSCSamplingProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTJSCSamplingProfiler.m; sourceTree = "<group>"; };
 		3B72865F2BA262EE156FE7C534C3FFE1 /* RCTInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTInspector.h; sourceTree = "<group>"; };
 		3B90C9F39A182F8B4B44EBD6C98E1E6F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
@@ -1407,14 +1405,12 @@
 		5BEF8B5FB14D4D712199006D8F9E9E97 /* diy-fp.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "diy-fp.cc"; path = "double-conversion/diy-fp.cc"; sourceTree = "<group>"; };
 		5C024BE35B67753EEC92CBA61C45086A /* NSAttributedString+BonMot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+BonMot.swift"; path = "Sources/NSAttributedString+BonMot.swift"; sourceTree = "<group>"; };
 		5C2877F066CE3E781B878FE3F44E21EA /* Unmarshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unmarshaling.swift; path = Sources/Unmarshaling.swift; sourceTree = "<group>"; };
-		5C457CF06909B88EFC34F56A50D27C7E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BLEAirQuality/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5C4D600E026A522B11F5778D8EEA94C0 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
 		5C4F81E6ACC513D258D56DC3A384C860 /* JSCPerfStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSCPerfStats.h; path = ReactCommon/cxxreact/JSCPerfStats.h; sourceTree = "<group>"; };
 		5C58E4A5345B812A10549E01C0FD58F4 /* RCTKeyCommands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTKeyCommands.h; sourceTree = "<group>"; };
 		5D17FF8FC699FCAC995D5053EF85C5E1 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		5D25F9508B5ED1F18E37FA2980D8390A /* RCTModalManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModalManager.m; sourceTree = "<group>"; };
 		5D879393F1100CCFF25128F5E691038B /* RCTCxxConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTCxxConvert.m; sourceTree = "<group>"; };
-		5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLEAirQuality.xcconfig; sourceTree = "<group>"; };
 		5E93004CA9C47A9E53A8242B0AB14EC0 /* RCTShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTShadowView.h; sourceTree = "<group>"; };
 		5F5C04B3A9BB54CA227AF1FDB096CDAB /* RZBPeripheral+RZBBattery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBPeripheral+RZBBattery.h"; path = "RZBluetooth/Profiles/RZBPeripheral+RZBBattery.h"; sourceTree = "<group>"; };
 		5FEDBDF97599DBB6CF31C1DBF045F646 /* RCTManagedPointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTManagedPointer.h; sourceTree = "<group>"; };
@@ -1429,7 +1425,6 @@
 		617859E57653245A4B7E92EFDED2F047 /* CBService+RZBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBService+RZBExtension.h"; path = "RZBluetooth/CBService+RZBExtension.h"; sourceTree = "<group>"; };
 		61B8BA623932F4A053A7B46B0BB57DE3 /* RCTCxxBridge.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTCxxBridge.mm; sourceTree = "<group>"; };
 		62A4DC813C1A61906A7500D436336659 /* Clamping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clamping.swift; path = Pod/Classes/Math/Clamping.swift; sourceTree = "<group>"; };
-		62A6B301866D9D5C0B756A6DCFCE7C92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		62A85F1F87B8F90B14E77DD6426FF20B /* RCTFollyConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTFollyConvert.h; sourceTree = "<group>"; };
 		62DA38159B3F82770274AEAF55E69CDF /* React.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = React.xcconfig; sourceTree = "<group>"; };
 		62EDF3A0E68F9D851CC062BCD1B1E74D /* RCTRootViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootViewInternal.h; sourceTree = "<group>"; };
@@ -1439,6 +1434,7 @@
 		634DDA68ADBA11A3EACED473169EE0A2 /* RCTSurfaceHostingProxyRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSurfaceHostingProxyRootView.h; sourceTree = "<group>"; };
 		637E8794380E2B6AD4D12FAA5F36E490 /* Pods-AirQualityDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirQualityDashboard.debug.xcconfig"; sourceTree = "<group>"; };
 		6443B30E71DEF97F9F833A650A9DFAC5 /* RCTPerfMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPerfMonitor.m; sourceTree = "<group>"; };
+		6444B31D020F4D144B0A2671112033E6 /* Sensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sensor.swift; path = BLEAirQuality/Classes/Sensor.swift; sourceTree = "<group>"; };
 		64A201BFF3C0C95E89626EA2437F3A60 /* Pods-Services-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Services-resources.sh"; sourceTree = "<group>"; };
 		64CC9D6CC7C35286264DC4FA854C58C9 /* RZBPeripheral+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBPeripheral+Private.h"; path = "RZBluetooth/RZBPeripheral+Private.h"; sourceTree = "<group>"; };
 		65E2AE88975A57330F072B33857F8A75 /* RCTScrollableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollableProtocol.h; sourceTree = "<group>"; };
@@ -1478,7 +1474,6 @@
 		6F0735C5E601A8AD127CB1D967F3DBA1 /* strtod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strtod.h; path = "double-conversion/strtod.h"; sourceTree = "<group>"; };
 		6F70D2701FE3B83041ED122B89F61AB3 /* RCTShadowView+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTShadowView+Internal.m"; sourceTree = "<group>"; };
 		6F891EB67C80AAEB558542A8FADAF4E9 /* JSIndexedRAMBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSIndexedRAMBundle.h; path = ReactCommon/cxxreact/JSIndexedRAMBundle.h; sourceTree = "<group>"; };
-		6FA22D2CA3D1CBC0057AA6F2FD90042E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FCF2EC9C15DE74DC92C348263B2088F /* Pods-AirQualityDashboard-AirQualityDashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirQualityDashboard-AirQualityDashboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		7007DE8ED0F290944929AF8448142F73 /* glog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = glog.modulemap; sourceTree = "<group>"; };
 		700BA1942D0EF5E0492888DA445CA2EF /* RCTRootContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootContentView.h; sourceTree = "<group>"; };
@@ -1575,6 +1570,7 @@
 		8C5ED6F71000F3C32A96D173B4EFC868 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		8C697D253911DEC002D928754053CCED /* RCTModalHostView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModalHostView.h; sourceTree = "<group>"; };
 		8C71A80AA278E8739015BA512F11D641 /* RCTHTTPRequestHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTHTTPRequestHandler.mm; path = Libraries/Network/RCTHTTPRequestHandler.mm; sourceTree = "<group>"; };
+		8C90299010743867FC81C85D4FBE5F29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CDE7200931AEB386CE1DC794A398DCD /* Marshal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshal.xcconfig; sourceTree = "<group>"; };
 		8CDFD7EA7CFF2A6D6162CDA45222BC3D /* JSCPerfStats.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSCPerfStats.cpp; path = ReactCommon/cxxreact/JSCPerfStats.cpp; sourceTree = "<group>"; };
 		8D1E758D8B42110CB59E5A596E6CA82E /* Pods-Services-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Services-dummy.m"; sourceTree = "<group>"; };
@@ -1614,6 +1610,7 @@
 		9565DB0A9D64C3FF4233F16951949DDE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		95B8923295CA9B52D4155A2D5DB66AF1 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		95C64ABEF2C59B015F220CFF8A01E67A /* UIView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Private.h"; sourceTree = "<group>"; };
+		9604ED67D8650DC3C46A6CA0909C1DDB /* BLEAirQuality-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLEAirQuality-dummy.m"; sourceTree = "<group>"; };
 		964FAEEC89FFABEC0C3D51304AB7C506 /* RCTWebSocketExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTWebSocketExecutor.h; path = Libraries/WebSocket/RCTWebSocketExecutor.h; sourceTree = "<group>"; };
 		96EC4BA7049B0B92A194FEC1D03B5402 /* RCTTextShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTextShadowView.h; sourceTree = "<group>"; };
 		96FA4822278B52A995511AFA1CCAB39A /* Pods-AirQualityDashboard-AirQualityDashboardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirQualityDashboard-AirQualityDashboardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -1718,6 +1715,7 @@
 		AFE9EA60105D430349FA9C1C3B065C2D /* RCTLayoutAnimationGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLayoutAnimationGroup.h; sourceTree = "<group>"; };
 		B00C37B2B4348F50ABBDA1EB7AE93992 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Extensions.swift"; path = "Pod/Classes/Views/Textview/UITextView+Extensions.swift"; sourceTree = "<group>"; };
 		B0996BD8BF8233EF0EA1AA1388BAE2C5 /* SDStatusBarOverriderPost9_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost9_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost9_3.h; sourceTree = "<group>"; };
+		B17DCE3D151094C58E9F4A68ACE334DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B1BC87155BACDD729A37F26C114607C3 /* Pods-AirQualityDashboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirQualityDashboard-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1ED27996E71817EAB9F7EB025E2FC2B /* glog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = glog.framework; path = glog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D2C7039B3A99FC6D5D06ACA5E718FB /* RZBCentralManager+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RZBCentralManager+Private.h"; path = "RZBluetooth/RZBCentralManager+Private.h"; sourceTree = "<group>"; };
@@ -1808,6 +1806,7 @@
 		CF5418A06F730C847FEB9C672E60A25B /* YGNodePrint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodePrint.cpp; path = yoga/YGNodePrint.cpp; sourceTree = "<group>"; };
 		CF7F36E792A2A2D78F832BDDB2C6ED5E /* Pods-AirQualityDashboard-AirQualityDashboardTests.sprint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirQualityDashboard-AirQualityDashboardTests.sprint.xcconfig"; sourceTree = "<group>"; };
 		CF936AB8DB5076C31C98DDC39E7DB31C /* fixed-dtoa.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = "fixed-dtoa.cc"; path = "double-conversion/fixed-dtoa.cc"; sourceTree = "<group>"; };
+		CFA2502CD9D8FB1C5CFEAE76EFE1BD3E /* BLEAirQuality-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLEAirQuality-umbrella.h"; sourceTree = "<group>"; };
 		CFAAB54D43EF54E6A613F998209645A1 /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsResponse.h; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.h; sourceTree = "<group>"; };
 		CFB5B9B95B81F68E8D1BC235B1069753 /* RCTAutoInsetsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAutoInsetsProtocol.h; sourceTree = "<group>"; };
 		CFE2C3D6D209F300BCFFC1675E03EA2A /* YGEnums.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.cpp; path = yoga/YGEnums.cpp; sourceTree = "<group>"; };
@@ -1828,6 +1827,7 @@
 		D3A9B5B2F1C0464B1A2F43AA33B7CCA9 /* NSTextStorage+FontScaling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTextStorage+FontScaling.h"; sourceTree = "<group>"; };
 		D3E47BAC1B754FF10BB195339D128116 /* Composable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Composable.swift; path = Sources/Composable.swift; sourceTree = "<group>"; };
 		D42929F81FADCAC80FC0871FF9A01EA5 /* JSCTracing.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = JSCTracing.cpp; path = ReactCommon/cxxreact/JSCTracing.cpp; sourceTree = "<group>"; };
+		D43D85A4B7265AD2590A16B2C56FB4B9 /* BLEAirQuality.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLEAirQuality.modulemap; sourceTree = "<group>"; };
 		D44221CD83B4AFADDB1E8044D9C63F93 /* RCTSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSegmentedControl.m; sourceTree = "<group>"; };
 		D4445A2DCFE121E07E9A665208B5C4AD /* Utils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Utils.cpp; path = yoga/Utils.cpp; sourceTree = "<group>"; };
 		D45F36404A22908A689308A3D47A29FF /* UIView+React.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+React.m"; sourceTree = "<group>"; };
@@ -1843,7 +1843,6 @@
 		D6420F65AB17137E2FDB1D32AD062BC0 /* AdaptiveStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveStyle.swift; path = Sources/UIKit/AdaptiveStyle.swift; sourceTree = "<group>"; };
 		D656328CD52A959C4E91537CBA39E6F6 /* RCTSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSwitch.h; sourceTree = "<group>"; };
 		D6BFE06A41235D186AAFF89AC23DFE8A /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTDataRequestHandler.h; path = Libraries/Network/RCTDataRequestHandler.h; sourceTree = "<group>"; };
-		D710CBD8A58446FE09F9AEC32527B8FF /* BLEAirQuality-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLEAirQuality-prefix.pch"; sourceTree = "<group>"; };
 		D7191EC958C54474A5FE425A6E63C10D /* JsArgumentHelpers-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JsArgumentHelpers-inl.h"; path = "ReactCommon/cxxreact/JsArgumentHelpers-inl.h"; sourceTree = "<group>"; };
 		D766AC8FDB4525E33FDDF68C972919CC /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		D794BCBF09C4034216EE4115A1EE9AD7 /* RecoverableError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecoverableError.h; path = ReactCommon/cxxreact/RecoverableError.h; sourceTree = "<group>"; };
@@ -1892,6 +1891,7 @@
 		E79793535B33848659FB3B3EEE1B5792 /* NativeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NativeModule.h; path = ReactCommon/cxxreact/NativeModule.h; sourceTree = "<group>"; };
 		E86AF1A31474966D69419F9C5671F991 /* RCTI18nManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTI18nManager.m; sourceTree = "<group>"; };
 		E92C46C0F50B1DEBF1E35FCA5A940249 /* RCTSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSlider.m; sourceTree = "<group>"; };
+		E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLEAirQuality.xcconfig; sourceTree = "<group>"; };
 		E97F52FFEC36620AB6507D896E1B0485 /* RAMBundleRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAMBundleRegistry.h; path = ReactCommon/cxxreact/RAMBundleRegistry.h; sourceTree = "<group>"; };
 		EA4199550542950BEEE6D3A903A7440B /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		EA9DCD60D1363ECE47A2021D885ED007 /* RCTSafeAreaViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSafeAreaViewManager.h; sourceTree = "<group>"; };
@@ -2313,7 +2313,7 @@
 		0E1FA8E25704EB0E63F381D3D758E55F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				434A85FCB8EC95C798E3596ECF44C5AE /* BLEAirQuality */,
+				7CA126A43835E27E0DD706867F744C22 /* BLEAirQuality */,
 				275E873DD38AFE651FC4218F1DB3BD3D /* React */,
 				7E4AD0530ABD7AF006747222DDA0B1DD /* yoga */,
 			);
@@ -2603,6 +2603,16 @@
 			name = ImageHelpers;
 			sourceTree = "<group>";
 		};
+		35211375A3623632F39697D71117982C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30443CE90152BA53DAF9EBF68BCBA841 /* BLEAirQuality.podspec */,
+				0E791D6DC753F9E4F33ED65C025EC4BD /* LICENSE */,
+				B17DCE3D151094C58E9F4A68ACE334DF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3A06E57962CD17895E4F7CE6EC056334 /* DeviceSize */ = {
 			isa = PBXGroup;
 			children = (
@@ -2661,17 +2671,6 @@
 				A4897298DCA7E2C621CF9C9B80E3D666 /* UIColor+Helpers.swift */,
 			);
 			name = ColorHelpers;
-			sourceTree = "<group>";
-		};
-		434A85FCB8EC95C798E3596ECF44C5AE /* BLEAirQuality */ = {
-			isa = PBXGroup;
-			children = (
-				5C457CF06909B88EFC34F56A50D27C7E /* ReplaceMe.swift */,
-				E92E2C32AEEF326274700C85CCB129CB /* Pod */,
-				D5CECF8D8B59D6B4937FC15F404F87F1 /* Support Files */,
-			);
-			name = BLEAirQuality;
-			path = ../Submodules/BLEAirQuality;
 			sourceTree = "<group>";
 		};
 		44DCCDFF4475DB30580D58C532C54A90 /* Fabric */ = {
@@ -2919,6 +2918,20 @@
 			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
+		6166205EF28538173D26FAAB7641A610 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43D85A4B7265AD2590A16B2C56FB4B9 /* BLEAirQuality.modulemap */,
+				E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */,
+				9604ED67D8650DC3C46A6CA0909C1DDB /* BLEAirQuality-dummy.m */,
+				3A86FE201B7B92EB3DED5B9F26ED7A86 /* BLEAirQuality-prefix.pch */,
+				CFA2502CD9D8FB1C5CFEAE76EFE1BD3E /* BLEAirQuality-umbrella.h */,
+				8C90299010743867FC81C85D4FBE5F29 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/BLEAirQuality";
+			sourceTree = "<group>";
+		};
 		67CC83A05B3CBA12037342F685FD0E62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -3060,6 +3073,17 @@
 			);
 			name = CxxUtils;
 			path = React/CxxUtils;
+			sourceTree = "<group>";
+		};
+		7CA126A43835E27E0DD706867F744C22 /* BLEAirQuality */ = {
+			isa = PBXGroup;
+			children = (
+				6444B31D020F4D144B0A2671112033E6 /* Sensor.swift */,
+				35211375A3623632F39697D71117982C /* Pod */,
+				6166205EF28538173D26FAAB7641A610 /* Support Files */,
+			);
+			name = BLEAirQuality;
+			path = ../Submodules/BLEAirQuality;
 			sourceTree = "<group>";
 		};
 		7CD87C517D4426E8CF4035A8C5C37A8A /* Shapes */ = {
@@ -3713,20 +3737,6 @@
 			path = Crashlytics;
 			sourceTree = "<group>";
 		};
-		D5CECF8D8B59D6B4937FC15F404F87F1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				092243D92A71A088825A946DEC6E9F68 /* BLEAirQuality.modulemap */,
-				5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */,
-				0AC7AB9E2143B512EE7993DA908C2FF8 /* BLEAirQuality-dummy.m */,
-				D710CBD8A58446FE09F9AEC32527B8FF /* BLEAirQuality-prefix.pch */,
-				0715D4E4880C90C384AF2CE27A149EAB /* BLEAirQuality-umbrella.h */,
-				6FA22D2CA3D1CBC0057AA6F2FD90042E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/BLEAirQuality";
-			sourceTree = "<group>";
-		};
 		D717EB85C254998C9F816422DAE8A06F /* PrivateDatabase */ = {
 			isa = PBXGroup;
 			children = (
@@ -3857,16 +3867,6 @@
 				828C5187AC1078C7D51651E4A9B9729B /* Frameworks */,
 			);
 			name = InstabugCore;
-			sourceTree = "<group>";
-		};
-		E92E2C32AEEF326274700C85CCB129CB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				35DD5982BFD336D51410D83B7E2B5BB0 /* BLEAirQuality.podspec */,
-				62A6B301866D9D5C0B756A6DCFCE7C92 /* LICENSE */,
-				068A44905496A09D0C3D98D9EC5613DF /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		EA49FEDB0A127802841DDC0FA88C5E3A /* DevSupport */ = {
@@ -4796,7 +4796,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEFE1F518C9D17F2218720ACAD912DDC /* Build configuration list for PBXNativeTarget "BLEAirQuality" */;
 			buildPhases = (
-				BAFA333A46FF8ABCF5AB8EF581789650 /* Sources */,
+				EE77E92E9FEB222DFDD2678205D17013 /* Sources */,
 				D0A7DF14D608FA4B5A1F55A959E07F9C /* Frameworks */,
 				4C382B306924589D16CF919122ABF8CE /* Headers */,
 			);
@@ -5290,15 +5290,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAFA333A46FF8ABCF5AB8EF581789650 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36CAD4B750E0AED6E0A63779065AC7EE /* BLEAirQuality-dummy.m in Sources */,
-				FC69E89A42E36DE9464B275DDC7851ED /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE60E7AD87CBC1F3CB9B50707652C1A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5357,6 +5348,15 @@
 				ECC67639DDED658BC2ADA815FD99BA65 /* UnmarshalingWithContext.swift in Sources */,
 				640F92A070027B9792337CA4A483C50B /* UnmarshalUpdating.swift in Sources */,
 				A38D81657A6F8A6A6C47902D48333A00 /* ValueType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE77E92E9FEB222DFDD2678205D17013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564A95DD6E853E4E136AD9A4A82352C /* BLEAirQuality-dummy.m in Sources */,
+				7DDD4278B56A2F5904904CE75773E70D /* Sensor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5988,7 +5988,7 @@
 		};
 		11EBED47FB3D8E5D345EA45AF77EB9C5 /* Sprint */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */;
+			baseConfigurationReference = E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -7185,7 +7185,7 @@
 		};
 		65662A4B6313FDE642C6CEAA626AA24A /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */;
+			baseConfigurationReference = E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -7642,7 +7642,7 @@
 		};
 		87AD22773E9843BEC95BA3D4BD65ED39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */;
+			baseConfigurationReference = E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -8595,7 +8595,7 @@
 		};
 		E767EA8DF77C0B44B01E2A31EF15B35B /* Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */;
+			baseConfigurationReference = E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -8719,7 +8719,7 @@
 		};
 		EF007F88C299DFE90FC167B170839846 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DDD4970F2766A476FDAC837D53FBEDC /* BLEAirQuality.xcconfig */;
+			baseConfigurationReference = E94DF28F732933315D998BFCEC97A6F3 /* BLEAirQuality.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

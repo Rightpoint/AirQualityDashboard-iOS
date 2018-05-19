@@ -9,7 +9,7 @@ import Foundation
 import React
 import Anchorage
 
-class ReactNativeViewController: UIViewController {
+class DashboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

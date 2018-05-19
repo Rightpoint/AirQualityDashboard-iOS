@@ -15,15 +15,9 @@
 		209BE2592051CB4B004CF0FF /* Actionable+AutoConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE2582051CB4B004CF0FF /* Actionable+AutoConformance.swift */; };
 		2D4FA8F51E8574F9006C38ED /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */; };
 		2D4FA8F71E85752B006C38ED /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F61E85752B006C38ED /* Coordinator.swift */; };
-		2D75C6C71E8EEAE900F2EB1D /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CEC1E8944B900B1AD70 /* OnboardingCoordinator.swift */; };
-		2D75C6C81E8EEB1900F2EB1D /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F81E8577B5006C38ED /* AuthCoordinator.swift */; };
-		2DAB59F81E95336100310ABF /* OnboardingSamplePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB59F71E95336100310ABF /* OnboardingSamplePageViewModel.swift */; };
-		2DFF1CEF1E89493300B1AD70 /* SignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CEE1E89493300B1AD70 /* SignInCoordinator.swift */; };
-		2DFF1CF11E8950F000B1AD70 /* ContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CF01E8950F000B1AD70 /* ContentCoordinator.swift */; };
-		2DFF1D121E8BE27B00B1AD70 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D111E8BE27B00B1AD70 /* OnboardingPageViewController.swift */; };
+		2DFF1CF11E8950F000B1AD70 /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CF01E8950F000B1AD70 /* DashboardCoordinator.swift */; };
 		2DFF1D161E8BF38F00B1AD70 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D151E8BF38F00B1AD70 /* UIColor+Extensions.swift */; };
 		2DFF1D181E8BF82A00B1AD70 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D171E8BF82A00B1AD70 /* Color.swift */; };
-		2DFF1D1C1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D1B1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift */; };
 		63E19DA1AE4BD0875DF235F8 /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D465E6ECC8509BBB6035678 /* Pods_Services.framework */; };
 		85083D4AEA7B5B726A79F450 /* Pods_AirQualityDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD9F2E21AB27A0230007885 /* Pods_AirQualityDashboard.framework */; };
 		861732D41FA28DB600C14354 /* HideBackButtonTextBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861732D21FA28DB600C14354 /* HideBackButtonTextBehavior.swift */; };
@@ -82,15 +76,15 @@
 		BE28092B1E802893006E50D5 /* AnalyticsPageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2809281E802893006E50D5 /* AnalyticsPageNames.swift */; };
 		BE28092C1E802893006E50D5 /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2809291E802893006E50D5 /* GoogleAnalytics.swift */; };
 		BE28092E1E8029D8006E50D5 /* AnalyticsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28092D1E8029D8006E50D5 /* AnalyticsConfiguration.swift */; };
-		BE2809301E8038BE006E50D5 /* ContentTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28092F1E8038BE006E50D5 /* ContentTabBarViewController.swift */; };
 		BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */; };
 		CD09C936207403B0006D3501 /* ProcessInfo+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09C935207403B0006D3501 /* ProcessInfo+Utilities.swift */; };
 		CD09C93E20741945006D3501 /* Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09C93D20741945006D3501 /* Screenshots.swift */; };
 		CD09C94A20741B24006D3501 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09C94920741B24006D3501 /* SnapshotHelper.swift */; };
 		CD09C94B20741B88006D3501 /* ProcessInfo+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09C935207403B0006D3501 /* ProcessInfo+Utilities.swift */; };
 		CD09C94D207428AE006D3501 /* StatusBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09C94C207428AE006D3501 /* StatusBarConfiguration.swift */; };
-		D973FC4920ACFE9900C97C91 /* ReactNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973FC4820ACFE9900C97C91 /* ReactNativeViewController.swift */; };
-		D973FC4B20AD038000C97C91 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = D973FC4A20AD037F00C97C91 /* main.jsbundle */; };
+		D973FC4920ACFE9900C97C91 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973FC4820ACFE9900C97C91 /* DashboardViewController.swift */; };
+		D9764D5220AF864E0084490C /* ReactBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9764D5120AF864E0084490C /* ReactBridge.swift */; };
+		D9764D5420AF8E9E0084490C /* SensorReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9764D5320AF8E9E0084490C /* SensorReadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +108,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABC778741DC90B7A00815FB9;
 			remoteInfo = AirQualityDashboard;
+		};
+		D9764D4F20AF833E0084490C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC7786D1DC90B7A00815FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9764D4920AF82EA0084490C;
+			remoteInfo = ReactNativeBundle;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -146,15 +147,9 @@
 		209BE2582051CB4B004CF0FF /* Actionable+AutoConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actionable+AutoConformance.swift"; sourceTree = "<group>"; };
 		2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		2D4FA8F61E85752B006C38ED /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		2D4FA8F81E8577B5006C38ED /* AuthCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
-		2DAB59F71E95336100310ABF /* OnboardingSamplePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSamplePageViewModel.swift; sourceTree = "<group>"; };
-		2DFF1CEC1E8944B900B1AD70 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
-		2DFF1CEE1E89493300B1AD70 /* SignInCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCoordinator.swift; sourceTree = "<group>"; };
-		2DFF1CF01E8950F000B1AD70 /* ContentCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCoordinator.swift; sourceTree = "<group>"; };
-		2DFF1D111E8BE27B00B1AD70 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		2DFF1CF01E8950F000B1AD70 /* DashboardCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
 		2DFF1D151E8BF38F00B1AD70 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		2DFF1D171E8BF82A00B1AD70 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		2DFF1D1B1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSamplePageViewController.swift; sourceTree = "<group>"; };
 		36045522D92DD8ED3DFB7FC8 /* Pods-AirQualityDashboard-AirQualityDashboardTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQualityDashboard-AirQualityDashboardTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-AirQualityDashboard-AirQualityDashboardTests/Pods-AirQualityDashboard-AirQualityDashboardTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		6D465E6ECC8509BBB6035678 /* Pods_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6085A924797A53A836C85 /* Pods-AirQualityDashboard.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQualityDashboard.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-AirQualityDashboard/Pods-AirQualityDashboard.appstore.xcconfig"; sourceTree = "<group>"; };
@@ -228,7 +223,6 @@
 		BE2809281E802893006E50D5 /* AnalyticsPageNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsPageNames.swift; sourceTree = "<group>"; };
 		BE2809291E802893006E50D5 /* GoogleAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAnalytics.swift; sourceTree = "<group>"; };
 		BE28092D1E8029D8006E50D5 /* AnalyticsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsConfiguration.swift; sourceTree = "<group>"; };
-		BE28092F1E8038BE006E50D5 /* ContentTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTabBarViewController.swift; sourceTree = "<group>"; };
 		BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMenuConfiguration.swift; sourceTree = "<group>"; };
 		C3A4171B7E64E228CC7A0DF7 /* Pods-AirQualityDashboard-AirQualityDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQualityDashboard-AirQualityDashboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirQualityDashboard-AirQualityDashboardTests/Pods-AirQualityDashboard-AirQualityDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7DBD1236E57FBDDF10B2FB0 /* Pods-AirQualityDashboard.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQualityDashboard.develop.xcconfig"; path = "Pods/Target Support Files/Pods-AirQualityDashboard/Pods-AirQualityDashboard.develop.xcconfig"; sourceTree = "<group>"; };
@@ -239,8 +233,11 @@
 		CD09C94920741B24006D3501 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		CD09C94C207428AE006D3501 /* StatusBarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarConfiguration.swift; sourceTree = "<group>"; };
 		D7F90A3B2F8D15AE9564FF78 /* Pods-Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Services/Pods-Services.debug.xcconfig"; sourceTree = "<group>"; };
-		D973FC4820ACFE9900C97C91 /* ReactNativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeViewController.swift; sourceTree = "<group>"; };
-		D973FC4A20AD037F00C97C91 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = React/main.jsbundle; sourceTree = SOURCE_ROOT; };
+		D973FC4820ACFE9900C97C91 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D9764D5120AF864E0084490C /* ReactBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactBridge.swift; sourceTree = "<group>"; };
+		D9764D5320AF8E9E0084490C /* SensorReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorReadingView.swift; sourceTree = "<group>"; };
+		D9764D5620AFA07B0084490C /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.jsbundle; path = React/main.jsbundle; sourceTree = SOURCE_ROOT; };
+		D9764D5820AFA0F30084490C /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = index.js; path = React/index.js; sourceTree = SOURCE_ROOT; };
 		DCD1E696B5452D855D78934E /* Pods-AirQualityDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQualityDashboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirQualityDashboard/Pods-AirQualityDashboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,24 +296,12 @@
 		2D4FA8F31E8574D2006C38ED /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				D9764D5120AF864E0084490C /* ReactBridge.swift */,
 				2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */,
-				2D4FA8F81E8577B5006C38ED /* AuthCoordinator.swift */,
-				2DFF1CF01E8950F000B1AD70 /* ContentCoordinator.swift */,
+				2DFF1CF01E8950F000B1AD70 /* DashboardCoordinator.swift */,
 				2D4FA8F61E85752B006C38ED /* Coordinator.swift */,
-				2DFF1CEC1E8944B900B1AD70 /* OnboardingCoordinator.swift */,
-				2DFF1CEE1E89493300B1AD70 /* SignInCoordinator.swift */,
 			);
 			path = Coordinators;
-			sourceTree = "<group>";
-		};
-		2DFF1D131E8BE3D400B1AD70 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				2DFF1D111E8BE27B00B1AD70 /* OnboardingPageViewController.swift */,
-				2DFF1D1B1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift */,
-				2DAB59F71E95336100310ABF /* OnboardingSamplePageViewModel.swift */,
-			);
-			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		2DFF1D141E8BF37C00B1AD70 /* Extensions */ = {
@@ -382,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				861732D71FA290F400C14354 /* ControlContainable.swift */,
+				D9764D5320AF8E9E0084490C /* SensorReadingView.swift */,
 				861732F71FA2989000C14354 /* TableViewContainerCell.swift */,
 			);
 			path = Views;
@@ -462,9 +448,7 @@
 		AB955DCB1DE3BDD300D0347E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				D973FC4820ACFE9900C97C91 /* ReactNativeViewController.swift */,
-				2DFF1D131E8BE3D400B1AD70 /* Onboarding */,
-				BE28092F1E8038BE006E50D5 /* ContentTabBarViewController.swift */,
+				D973FC4820ACFE9900C97C91 /* DashboardViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -496,7 +480,7 @@
 		ABC778771DC90B7A00815FB9 /* AirQualityDashboard */ = {
 			isa = PBXGroup;
 			children = (
-				D973FC4A20AD037F00C97C91 /* main.jsbundle */,
+				D9764D5720AFA08D0084490C /* React */,
 				ABC778981DC91DFB00815FB9 /* Application */,
 				861732D01FA28DB600C14354 /* Components */,
 				2D4FA8F31E8574D2006C38ED /* Coordinators */,
@@ -534,6 +518,7 @@
 		ABC778991DC91E0D00815FB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9764D5620AFA07B0084490C /* main.jsbundle */,
 				ABF84F8E1DC99D33002DB24D /* Generated */,
 				209BE2522051C7BB004CF0FF /* Sourcery */,
 				ABC778CD1DC92BC200815FB9 /* xcconfig */,
@@ -652,6 +637,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		D9764D5720AFA08D0084490C /* React */ = {
+			isa = PBXGroup;
+			children = (
+				D9764D5820AFA0F30084490C /* index.js */,
+			);
+			name = React;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -664,6 +657,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		D9764D4920AF82EA0084490C /* ReactNativeBundle */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "bundle --entry-file index.js --platform ios --dev false --bundle-output main.jsbundle --assets-dest assets";
+			buildConfigurationList = D9764D4E20AF82EA0084490C /* Build configuration list for PBXLegacyTarget "ReactNativeBundle" */;
+			buildPhases = (
+			);
+			buildToolPath = "react-native";
+			buildWorkingDirectory = "$(SRCROOT)/React";
+			dependencies = (
+			);
+			name = ReactNativeBundle;
+			passBuildSettingsInEnvironment = 1;
+			productName = ReactNativeBundle;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		86A65AED1FA0EA2400705C14 /* Services */ = {
@@ -704,6 +714,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D9764D5020AF833E0084490C /* PBXTargetDependency */,
 				86A65AF41FA0EA2400705C14 /* PBXTargetDependency */,
 			);
 			name = AirQualityDashboard;
@@ -781,6 +792,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = ABC778741DC90B7A00815FB9;
 					};
+					D9764D4920AF82EA0084490C = {
+						CreatedOnToolsVersion = 9.3.1;
+						DevelopmentTeam = xxxxxx;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = ABC778701DC90B7A00815FB9 /* Build configuration list for PBXProject "AirQualityDashboard" */;
@@ -800,6 +816,7 @@
 				ABC778881DC90B7A00815FB9 /* AirQualityDashboardTests */,
 				86A65AED1FA0EA2400705C14 /* Services */,
 				CD09C93A20741945006D3501 /* Screenshots */,
+				D9764D4920AF82EA0084490C /* ReactNativeBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -821,7 +838,6 @@
 				209BE2562051C90C004CF0FF /* actionable.swifttemplate in Resources */,
 				ABF84F811DC97653002DB24D /* Localizable.strings in Resources */,
 				ABC778831DC90B7A00815FB9 /* LaunchScreen.storyboard in Resources */,
-				D973FC4B20AD038000C97C91 /* main.jsbundle in Resources */,
 				ABC778801DC90B7A00815FB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1102,19 +1118,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D75C6C81E8EEB1900F2EB1D /* AuthCoordinator.swift in Sources */,
-				2D75C6C71E8EEAE900F2EB1D /* OnboardingCoordinator.swift in Sources */,
-				2DFF1D1C1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift in Sources */,
-				2DFF1CF11E8950F000B1AD70 /* ContentCoordinator.swift in Sources */,
+				2DFF1CF11E8950F000B1AD70 /* DashboardCoordinator.swift in Sources */,
 				ABF84F8D1DC99CFD002DB24D /* StringStyle+AirQualityDashboard.swift in Sources */,
 				8662C00A1FA2AA9900ADCBA9 /* SimpleTableCellItem.swift in Sources */,
+				D9764D5420AF8E9E0084490C /* SensorReadingView.swift in Sources */,
 				861732F61FA2984600C14354 /* ViewRepresentable.swift in Sources */,
 				ABC778EA1DC951B900815FB9 /* LoggingConfiguration.swift in Sources */,
 				BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */,
 				2D4FA8F71E85752B006C38ED /* Coordinator.swift in Sources */,
 				2D4FA8F51E8574F9006C38ED /* AppCoordinator.swift in Sources */,
-				2DFF1CEF1E89493300B1AD70 /* SignInCoordinator.swift in Sources */,
-				2DAB59F81E95336100310ABF /* OnboardingSamplePageViewModel.swift in Sources */,
+				D9764D5220AF864E0084490C /* ReactBridge.swift in Sources */,
 				861732F41FA2984600C14354 /* TableCellItem.swift in Sources */,
 				861732F81FA2989100C14354 /* TableViewContainerCell.swift in Sources */,
 				CD09C94D207428AE006D3501 /* StatusBarConfiguration.swift in Sources */,
@@ -1139,15 +1152,13 @@
 				ABF84F8C1DC99CFD002DB24D /* Appearance.swift in Sources */,
 				ABC778791DC90B7A00815FB9 /* AppDelegate.swift in Sources */,
 				862B204C1FA11315007D33BC /* DebugMenu.swift in Sources */,
-				BE2809301E8038BE006E50D5 /* ContentTabBarViewController.swift in Sources */,
 				862B204E1FA11345007D33BC /* DebugTextStyleViewController.swift in Sources */,
 				86A65B201FA0F6DB00705C14 /* UserDefaults+Utilities.swift in Sources */,
 				861732FE1FA29BE600C14354 /* DebugMenuViewController.swift in Sources */,
 				2DFF1D181E8BF82A00B1AD70 /* Color.swift in Sources */,
 				861732D51FA28DB600C14354 /* ModalDismissBehavior.swift in Sources */,
-				D973FC4920ACFE9900C97C91 /* ReactNativeViewController.swift in Sources */,
+				D973FC4920ACFE9900C97C91 /* DashboardViewController.swift in Sources */,
 				BE28092A1E802893006E50D5 /* Analytics.swift in Sources */,
-				2DFF1D121E8BE27B00B1AD70 /* OnboardingPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1192,6 +1203,11 @@
 			isa = PBXTargetDependency;
 			target = ABC778741DC90B7A00815FB9 /* AirQualityDashboard */;
 			targetProxy = CD09C94020741945006D3501 /* PBXContainerItemProxy */;
+		};
+		D9764D5020AF833E0084490C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9764D4920AF82EA0084490C /* ReactNativeBundle */;
+			targetProxy = D9764D4F20AF833E0084490C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1964,6 +1980,181 @@
 			};
 			name = AppStore;
 		};
+		D9764D4A20AF82EA0084490C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9764D4B20AF82EA0084490C /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Develop;
+		};
+		D9764D4C20AF82EA0084490C /* Sprint */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Sprint;
+		};
+		D9764D4D20AF82EA0084490C /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AppStore;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2018,6 +2209,17 @@
 				CD09C94320741945006D3501 /* Develop */,
 				CD09C94420741945006D3501 /* Sprint */,
 				CD09C94520741945006D3501 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9764D4E20AF82EA0084490C /* Build configuration list for PBXLegacyTarget "ReactNativeBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9764D4A20AF82EA0084490C /* Debug */,
+				D9764D4B20AF82EA0084490C /* Develop */,
+				D9764D4C20AF82EA0084490C /* Sprint */,
+				D9764D4D20AF82EA0084490C /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

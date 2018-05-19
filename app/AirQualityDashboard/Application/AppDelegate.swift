@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AnalyticsConfiguration(),
         DebugMenuConfiguration(),
         StatusBarConfiguration(),
+        ReactBridge.shared,
         ]
 
     // Anything that relies on the existence of a window and an initial viewcontroller should be in this postWindowConfigurations array
@@ -44,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = window
 
         self.coordinator = AppCoordinator(window: window)
-        coordinator.start(animated: true, completion: {
+        coordinator.start(animated: false, completion: {
             for config in self.rootViewControllerDependentConfigurations where config.isEnabled {
                 config.onDidLaunch(application: application, launchOptions: launchOptions)
             }
