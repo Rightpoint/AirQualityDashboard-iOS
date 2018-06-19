@@ -10,7 +10,7 @@ def shared
     pod 'BLEAirQuality', :path => './Submodules/BLEAirQuality'
     pod 'Alamofire'
     pod 'Anchorage'
-    pod 'Swiftilities'
+    pod 'Swiftilities', :git => 'https://github.com/Raizlabs/Swiftilities.git', :branch => 'xcode10_compat'
 end
 
 target 'AirQualityDashboard' do

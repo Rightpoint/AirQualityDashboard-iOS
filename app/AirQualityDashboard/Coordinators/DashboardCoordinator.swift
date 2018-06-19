@@ -51,21 +51,23 @@ extension DashboardCoordinator: Coordinator {
             self?.readingUpdated(reading: reading)
         }
 
+        #if targetEnvironment(simulator)
         var count: Float = 0.0
+        #endif
 
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] (_) in
-            /// DEBUG
+            #if targetEnvironment(simulator)
             count += 1
             self?.baseController.sensorReading.pm2_5 = count
             self?.baseController.sensorReading.pm10 = count + 1
-            return
-
+            #else
             // For now just use first peripheral we find
             guard let peripheral = self?.peripherals.first else {
                 return
             }
             self?.sensor.fetchReading(from: peripheral, type: .pm2_5, completion: readingBlock)
             self?.sensor.fetchReading(from: peripheral, type: .pm10, completion: readingBlock)
+            #endif
         })
         completion?()
     }

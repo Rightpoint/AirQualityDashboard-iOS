@@ -28,9 +28,9 @@ class ReactBridge: NSObject {
             fatalError("React Bridge not setup!")
         }
         let view = RCTRootView(bridge: bridge, moduleName: module.rawValue, initialProperties: initialProperties)
-        if !useIntrinsicContentSize {
-            // by default RN will snap to content size
-            // this allows us to use constraints manually
+        if useIntrinsicContentSize {
+            view?.sizeFlexibility = .widthAndHeight
+        } else {
             view?.sizeFlexibility = .none
         }
         return view
@@ -38,11 +38,11 @@ class ReactBridge: NSObject {
 }
 
 extension ReactBridge: RCTBridgeDelegate {
-    func sourceURL(for bridge: RCTBridge!) -> URL! {
-        #if DEBUG
-        let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
+    func sourceURL(for bridge: RCTBridge) -> URL {
+        #if targetEnvironment(simulator)
+        let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
         #else
-        let jsCodeLocation = Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+        let jsCodeLocation = Bundle.main.url(forResource: "main", withExtension: "jsbundle")!
         #endif
         return jsCodeLocation
     }

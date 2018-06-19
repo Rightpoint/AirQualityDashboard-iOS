@@ -4,13 +4,6 @@ GIT
   specs:
     fastlane-plugin-install_provisioning_profiles (0.2.1)
 
-GIT
-  remote: https://github.com/orta/cocoapods-fix-react-native.git
-  revision: 8921d6a3afc8c4c66f7f776483fdccfa9f58f93b
-  branch: master
-  specs:
-    cocoapods-fix-react-native (2018.05.16.16)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -279,7 +272,6 @@ PLATFORMS
 DEPENDENCIES
   circleci_artifact
   cocoapods
-  cocoapods-fix-react-native!
   danger
   danger-junit
   danger-swiftlint
@@ -292,4 +284,4 @@ DEPENDENCIES
   xcov
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
