@@ -22,11 +22,17 @@ class ReactBridge: NSObject {
     }
 
     public func makeView(module: ReactModule,
-                         initialProperties: [AnyHashable: Any]? = nil) -> RCTRootView? {
+                         initialProperties: [AnyHashable: Any] = [:],
+                         useIntrinsicContentSize: Bool = false) -> RCTRootView? {
         guard let bridge = self.bridge else {
             fatalError("React Bridge not setup!")
         }
         let view = RCTRootView(bridge: bridge, moduleName: module.rawValue, initialProperties: initialProperties)
+        if !useIntrinsicContentSize {
+            // by default RN will snap to content size
+            // this allows us to use constraints manually
+            view?.sizeFlexibility = .none
+        }
         return view
     }
 }

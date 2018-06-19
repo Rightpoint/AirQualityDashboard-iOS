@@ -13,27 +13,23 @@ class DashboardViewController: UIViewController {
 
     var sensorReading = SensorReadingViewState() {
         didSet {
-            guard let sensorReadingView = self.sensorReadingView else {
-                return
-            }
             sensorReading.update(view: sensorReadingView)
         }
     }
 
-    private var sensorReadingView: SensorReadingView?
+    private lazy var sensorReadingView: SensorReadingView = {
+        return sensorReading.makeView()
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let sensorReadingView = sensorReading.makeView()
-        sensorReading.update(view: sensorReadingView)
         view.addSubview(sensorReadingView)
-        view.edgeAnchors == sensorReadingView.edgeAnchors
-        self.sensorReadingView = sensorReadingView
+        sensorReadingView.edgeAnchors == view.edgeAnchors
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        sensorReadingView?.reactView?.bounds = view.bounds
+//        sensorReadingView?.reactView?.bounds = view.bounds
     }
 
 }

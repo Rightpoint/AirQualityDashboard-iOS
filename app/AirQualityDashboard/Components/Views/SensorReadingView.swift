@@ -16,7 +16,7 @@ public struct SensorReadingViewState {
 }
 
 public class SensorReadingView: UIView {
-    var reactView: RCTRootView?
+    fileprivate var reactView: RCTRootView?
 }
 
 private extension SensorReadingViewState {
@@ -46,9 +46,8 @@ extension SensorReadingViewState: ViewRepresentable {
         guard let reactView = ReactBridge.shared.makeView(module: .highScores, initialProperties: reactDictionary) else {
             fatalError("Could not initialize React view")
         }
-        reactView.frame = CGRect(x: 0, y: 0, width: 320, height: 500)
         view.addSubview(reactView)
-        view.edgeAnchors == reactView.edgeAnchors
+        reactView.edgeAnchors == view.edgeAnchors
         view.reactView = reactView
         return view
     }

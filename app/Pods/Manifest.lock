@@ -5,22 +5,22 @@ PODS:
     - RZBluetooth
   - BonMot (5.2)
   - boost-for-react-native (1.63.0)
-  - Crashlytics (3.10.1):
-    - Fabric (~> 1.7.5)
+  - Crashlytics (3.10.2):
+    - Fabric (~> 1.7.7)
   - DoubleConversion (1.1.5)
-  - Fabric (1.7.6)
-  - Folly (2016.09.26.00):
+  - Fabric (1.7.7)
+  - Folly (2016.10.31.00):
     - boost-for-react-native
     - DoubleConversion
     - glog
   - glog (0.3.4)
   - GoogleAnalytics (3.17.0)
-  - Instabug (7.12.5):
-    - Instabug/Instabug (= 7.12.5)
-    - Instabug/InstabugCore (= 7.12.5)
-  - Instabug/Instabug (7.12.5):
+  - Instabug (7.14.4):
+    - Instabug/Instabug (= 7.14.4)
+    - Instabug/InstabugCore (= 7.14.4)
+  - Instabug/Instabug (7.14.4):
     - Instabug/InstabugCore
-  - Instabug/InstabugCore (7.12.5)
+  - Instabug/InstabugCore (7.14.4)
   - KeychainAccess (3.1.1)
   - Marshal (1.2.4)
   - OHHTTPStubs/Core (6.1.0)
@@ -36,40 +36,45 @@ PODS:
   - OHHTTPStubs/OHPathHelpers (6.1.0)
   - OHHTTPStubs/Swift (6.1.0):
     - OHHTTPStubs/Default
-  - React/Core (0.55.4):
-    - yoga (= 0.55.4.React)
-  - React/CxxBridge (0.55.4):
-    - Folly (= 2016.09.26.00)
+  - React/Core (0.56.0-rc.2):
+    - yoga (= 0.56.0-rc.2.React)
+  - React/CxxBridge (0.56.0-rc.2):
+    - Folly (= 2016.10.31.00)
     - React/Core
     - React/cxxreact
-  - React/cxxreact (0.55.4):
+  - React/cxxreact (0.56.0-rc.2):
     - boost-for-react-native (= 1.63.0)
-    - Folly (= 2016.09.26.00)
+    - Folly (= 2016.10.31.00)
     - React/jschelpers
     - React/jsinspector
-  - React/DevSupport (0.55.4):
+  - React/DevSupport (0.56.0-rc.2):
     - React/Core
     - React/RCTWebSocket
-  - React/fishhook (0.55.4)
-  - React/jschelpers (0.55.4):
-    - Folly (= 2016.09.26.00)
+  - React/fishhook (0.56.0-rc.2)
+  - React/jschelpers (0.56.0-rc.2):
+    - Folly (= 2016.10.31.00)
     - React/PrivateDatabase
-  - React/jsinspector (0.55.4)
-  - React/PrivateDatabase (0.55.4)
-  - React/RCTBlob (0.55.4):
+  - React/jsinspector (0.56.0-rc.2)
+  - React/PrivateDatabase (0.56.0-rc.2)
+  - React/RCTAnimation (0.56.0-rc.2):
     - React/Core
-  - React/RCTNetwork (0.55.4):
+  - React/RCTBlob (0.56.0-rc.2):
     - React/Core
-  - React/RCTText (0.55.4):
+  - React/RCTImage (0.56.0-rc.2):
     - React/Core
-  - React/RCTWebSocket (0.55.4):
+    - React/RCTNetwork
+  - React/RCTNetwork (0.56.0-rc.2):
+    - React/Core
+  - React/RCTText (0.56.0-rc.2):
+    - React/Core
+  - React/RCTWebSocket (0.56.0-rc.2):
     - React/Core
     - React/fishhook
     - React/RCTBlob
   - RZBluetooth (1.2.2):
     - RZBluetooth/Core (= 1.2.2)
   - RZBluetooth/Core (1.2.2)
-  - SimulatorStatusMagic (2.1)
+  - SimulatorStatusMagic (2.2)
   - Sourcery (0.12.0)
   - SwiftGen (5.3.0)
   - Swiftilities (0.18.0):
@@ -130,7 +135,7 @@ PODS:
   - Swiftilities/TintedButton (0.18.0)
   - Swiftilities/Views (0.18.0)
   - SwiftLint (0.25.1)
-  - yoga (0.55.4.React)
+  - yoga (0.56.0-rc.2.React)
 
 DEPENDENCIES:
   - Alamofire
@@ -149,6 +154,8 @@ DEPENDENCIES:
   - React/Core (from `./React/node_modules/react-native`)
   - React/CxxBridge (from `./React/node_modules/react-native`)
   - React/DevSupport (from `./React/node_modules/react-native`)
+  - React/RCTAnimation (from `./React/node_modules/react-native`)
+  - React/RCTImage (from `./React/node_modules/react-native`)
   - React/RCTNetwork (from `./React/node_modules/react-native`)
   - React/RCTText (from `./React/node_modules/react-native`)
   - React/RCTWebSocket (from `./React/node_modules/react-native`)
@@ -199,25 +206,25 @@ SPEC CHECKSUMS:
   BLEAirQuality: e0cea802e7a501fa18a2427b4241340a68b69989
   BonMot: 68da0bd7c2f602aca85511bedabd211eb0fae666
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
-  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
-  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
-  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
-  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
+  DoubleConversion: a9706f16e388b53ff12cca34473428ee29746a26
+  Fabric: bda89e242bce1b7b8ab264248cf3407774ce0095
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: 3931855c9cc99c3fab1355fc162fe369162d8183
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
-  Instabug: 7a3c51631266f2a9e901fd9e6ccd51541baf1dd4
+  Instabug: 57e40bca7d39db8f54e2c18fb98bd591bb5b0145
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
   Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
-  React: aa2040dbb6f317b95314968021bd2888816e03d5
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   RZBluetooth: 80278a1e941644224554040b7d0f6418b7a99291
-  SimulatorStatusMagic: 481558caf2b9ccb2ceba2cc193728d4db3dcac07
+  SimulatorStatusMagic: 0389a805fa8bd001e2977c4046730bdbd6642861
   Sourcery: 10fa92cd8890864856ee3657ca460d597ebc064b
   SwiftGen: 4379bd3640b0a212a0f6ea3c494adba385513d10
   Swiftilities: be5be2c1770bc689f1d63a0fa5ad8b359f474a92
   SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
-  yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 9a1d791a026c6c0c68a967b0ec825819f6905501
+PODFILE CHECKSUM: d4f3cbee08fc8fbd449a6b14b94038da1b70ee08
 
 COCOAPODS: 1.5.2

@@ -5,7 +5,7 @@
 
  Copyright:  (c) 2013-2018 by Instabug, Inc., all rights reserved.
 
- Version:    7.12.5
+ Version:    7.14.4
  */
 
 #import <Foundation/Foundation.h>
@@ -330,7 +330,27 @@ typedef void (^NetworkObfuscationCompletionBlock)(NSData *data, NSURLResponse *r
  
  @discussion Does nothing if invocation event is set to anything other than IBGInvocationEventShake or IBGInvocationEventScreenshot.
  */
-+ (void)showIntroMessage;
++ (void)showIntroMessage DEPRECATED_MSG_ATTRIBUTE("Use showWelcomeMessageWithMode: instead.");
+
+/**
+ @brief Shows the welcome message in a specific mode.
+
+ @discussion By default, the welcome message live mode is enabled. It appears automatically after 10 seconds from the user's first session. You can show it manually in a specific mode through this API.
+ The live mode consists of one step to inform the users how to report a bug or feedback. The beta mode consists of three steps to welcome your testers on board, inform them how to report a bug or feedback and to motivate them to always be on the latest app version. Please note, the into message appears only if the invocation event isn't set to none.
+ 
+ @param welcomeMessageMode An enum to set the welcome message mode to live, beta or disabled.
+ */
++ (void)showWelcomeMessageWithMode:(IBGWelcomeMessageMode)welcomeMessageMode;
+
+/**
+ @brief Sets the welcome message mode to live, beta or disabled.
+
+ @discussion By default, the welcome message live mode is enabled. It appears automatically after 10 seconds from the user's first session. You can change it to the beta mode or disable it.
+ The live mode consists of one step to inform the users how to report a bug or feedback. The beta mode consists of three steps to welcome your testers on board, inform them how to report a bug or feedback and to motivate them to always be on the latest app version. Please note, the into message appears only if the invocation event isn't set to none.
+ 
+ @param welcomeMessageMode An enum to set the welcome message mode to live, beta or disabled.
+ */
++ (void)setWelcomeMessageMode:(IBGWelcomeMessageMode)welcomeMessageMode;
 
 /**
  @brief Enables/disables the attachment of an initial screenshot when reporting a bug/improvement.
@@ -386,15 +406,15 @@ typedef void (^NetworkObfuscationCompletionBlock)(NSData *data, NSURLResponse *r
 
 /**
  @brief Enables/disables screenshot view when reporting a bug/improvement.
- 
+
  @deprecated Starting from v6.0, use `setWillSkipScreenshotAnnotation:` instead.
- 
+
  @discussion By default, screenshot view is shown when reporting a bug, but not when sending feedback.
- 
+
  @param willShowScreenshotView A boolean to set whether screenshot view is shown or not. Passing YES will show
  screenshot view for both feedback and bug reporting, while passing NO will disable it for both.
  */
-+ (void)setWillShowScreenshotView:(BOOL)willShowScreenshotView DEPRECATED_MSG_ATTRIBUTE("Starting from v6.0, use setWillSkipScreenshotAnnotation: instead.");
++ (void)setWillShowScreenshotView:(BOOL)willShowScreenshotView DEPRECATED_MSG_ATTRIBUTE("This API has no effect now and will be removed soon");
 
 /**
  @brief Enables/disables screenshot view when reporting a bug/improvement.
@@ -404,7 +424,7 @@ typedef void (^NetworkObfuscationCompletionBlock)(NSData *data, NSURLResponse *r
  @param willSkipScreenShot A boolean to set whether screenshot view is shown or not. Passing YES will show
  screenshot view for both feedback and bug reporting, while passing NO will disable it for both.
  */
-+ (void)setWillSkipScreenshotAnnotation:(BOOL)willSkipScreenShot;
++ (void)setWillSkipScreenshotAnnotation:(BOOL)willSkipScreenShot DEPRECATED_MSG_ATTRIBUTE("This API has no effect now and will be removed soon");
 
 /**
  @brief Returns the number of unread messages the user currently has.
@@ -530,7 +550,7 @@ typedef void (^NetworkObfuscationCompletionBlock)(NSData *data, NSURLResponse *r
  
  @param isIntroMessageEnabled A boolean to indicate whether the intro message is enabled or not.
  */
-+ (void)setIntroMessageEnabled:(BOOL)isIntroMessageEnabled;
++ (void)setIntroMessageEnabled:(BOOL)isIntroMessageEnabled DEPRECATED_MSG_ATTRIBUTE("Use setWelcomeMessageMode: instead.");
 
 /**
  @brief Sets whether to show a "Thank You" dialog after a bug report is sent or not.
@@ -1265,6 +1285,17 @@ OBJC_EXTERN void IBGNSLogWithLevel(NSString *format, va_list args, IBGLogLevel l
  @param daysCount : Number of days required to pass before a dismissed survey can be shown again.
  */
 + (void)setThresholdForReshowingSurveyAfterDismiss:(NSInteger)sessionCount daysCount:(NSInteger)daysCount;
+
+/**
+ @brief Setting an option for all the surveys to show a welcome screen before the user starts taking the survey.
+ 
+ @discussion By enabling this option, any survey that appears to the user will have a welcome screen with a title, subtitle
+  and a button that if clicked, will take the user to the survey. All the strings in the welcome screen have a default value
+ and localized. They can also be modified using the strings API. The default value of this option is false.
+ 
+ @param shouldShowWelcomeScreen : Boolean for setting wether the welcome screen should show.
+ */
++ (void)setShouldShowSurveysWelcomeScreen:(BOOL)shouldShowWelcomeScreen;
 
 #pragma mark - Feature Requests
 /// ------------------------

@@ -23,7 +23,8 @@ target 'AirQualityDashboard' do
     'RCTText',
     'RCTNetwork',
     'RCTWebSocket', # needed for debugging
-    # Add any other subspecs you want to use in your project
+    'RCTImage',
+    'RCTAnimation',
   ]
   # Explicitly include Yoga if you are using RN >= 0.42.0
   pod "yoga", :path => "./React/node_modules/react-native/ReactCommon/yoga"
@@ -78,29 +79,6 @@ def change_lines_in_file(file_path, &change)
 end
 
 post_install do |installer|
-  # https://github.com/facebook/yoga/issues/711#issuecomment-381098373
-  change_lines_in_file('./Pods/Target Support Files/yoga/yoga-umbrella.h') do |lines|
-    lines.reject do | line |
-      [
-        '#import "Utils.h"',
-        '#import "YGLayout.h"',
-        '#import "YGNode.h"',
-        '#import "YGNodePrint.h"',
-        '#import "YGStyle.h"',
-        '#import "Yoga-internal.h"',
-      ].include?(line.strip)
-    end
-  end
-
-  # https://github.com/facebook/yoga/issues/711#issuecomment-374605785
-  change_lines_in_file('./React/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.h') do |lines|
-    unless lines[27].include?("#ifdef __cplusplus")
-      lines.insert(27, "#ifdef __cplusplus")
-      lines.insert(34, "#endif")
-    end
-    lines
-  end
-
   # https://github.com/facebook/react-native/issues/13198
   change_lines_in_file('./React/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h') do |lines|
     lines.map { |line| line.include?("#import <RCTAnimation/RCTValueAnimatedNode.h>") ? '#import "RCTValueAnimatedNode.h"' : line }
