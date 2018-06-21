@@ -11,7 +11,7 @@ import Anchorage
 
 class DashboardViewController: UIViewController {
 
-    var sensorReading = SensorReadingViewState() {
+    var sensorReading = SensorReading() {
         didSet {
             sensorReading.update(view: sensorReadingView)
         }

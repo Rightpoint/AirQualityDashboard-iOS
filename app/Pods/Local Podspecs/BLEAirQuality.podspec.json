@@ -17,7 +17,7 @@
   },
   "platforms": {
     "osx": "10.10",
-    "ios": "8.0",
+    "ios": "10.0",
     "watchos": "4.0"
   },
   "source_files": "BLEAirQuality/Classes/**/*",

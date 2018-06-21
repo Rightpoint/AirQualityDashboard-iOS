@@ -8,8 +8,18 @@
 import Foundation
 import React
 
+protocol ReactRepresentable {
+    var propsDictionary: [AnyHashable: Any] { get }
+}
+
 enum ReactModule: String {
-    case highScores = "RNHighScores"
+    case airQuality = "RNAirQuality"
+}
+
+extension RCTRootView {
+    func update(_ value: ReactRepresentable) {
+        appProperties = value.propsDictionary
+    }
 }
 
 class ReactBridge: NSObject {
@@ -30,7 +40,8 @@ class ReactBridge: NSObject {
         let view = RCTRootView(bridge: bridge, moduleName: module.rawValue, initialProperties: initialProperties)
         if useIntrinsicContentSize {
             view?.sizeFlexibility = .widthAndHeight
-        } else {
+        }
+        else {
             view?.sizeFlexibility = .none
         }
         return view
@@ -39,8 +50,12 @@ class ReactBridge: NSObject {
 
 extension ReactBridge: RCTBridgeDelegate {
     func sourceURL(for bridge: RCTBridge) -> URL {
+        #if DEBUG
         #if targetEnvironment(simulator)
         let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
+        #else
+        let jsCodeLocation = URL(string: "http://10.20.11.109.xip.io:8081/index.bundle?platform=ios")!
+        #endif
         #else
         let jsCodeLocation = Bundle.main.url(forResource: "main", withExtension: "jsbundle")!
         #endif

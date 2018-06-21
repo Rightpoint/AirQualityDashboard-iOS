@@ -10,40 +10,41 @@ import BLEAirQuality
 import Anchorage
 import React
 
-public struct SensorReadingViewState {
-    var pm2_5: Float?
-    var pm10: Float?
+public struct SensorReading {
+    var pm2_5: Measurement<UnitConcentrationMass>?
+    var pm10: Measurement<UnitConcentrationMass>?
 }
 
 public class SensorReadingView: UIView {
     fileprivate var reactView: RCTRootView?
 }
 
-private extension SensorReadingViewState {
-    var reactDictionary: [AnyHashable: Any] {
-        var pm2_5String = "???"
-        var pm10String = "???"
+extension SensorReading: ReactRepresentable {
+    static let formatter: MeasurementFormatter = {
+        let f = MeasurementFormatter()
+        f.unitStyle = .short
+        f.unitOptions = .providedUnit
+        return f
+    }()
+    var propsDictionary: [AnyHashable: Any] {
+        var readings: [[String: String]] = []
         if let pm2_5 = self.pm2_5 {
-            pm2_5String = "\(pm2_5)"
+            readings.append(["name": "PM2.5", "value": "\(SensorReading.formatter.string(from: pm2_5))"])
         }
         if let pm10 = self.pm10 {
-            pm10String = "\(pm10)"
+            readings.append(["name": "PM10", "value": "\(SensorReading.formatter.string(from: pm10))"])
         }
-        return ["scores":
-            [
-                ["name": "PM2.5", "value": pm2_5String],
-                ["name": "PM10", "value": pm10String],
-            ],
-        ]
+        let props = ["readings": readings]
+        return props
     }
 }
 
-extension SensorReadingViewState: ViewRepresentable {
+extension SensorReading: ViewRepresentable {
     public typealias View = SensorReadingView
 
     public func makeView() -> SensorReadingView {
         let view = SensorReadingView()
-        guard let reactView = ReactBridge.shared.makeView(module: .highScores, initialProperties: reactDictionary) else {
+        guard let reactView = ReactBridge.shared.makeView(module: .airQuality, initialProperties: propsDictionary) else {
             fatalError("Could not initialize React view")
         }
         view.addSubview(reactView)
@@ -61,7 +62,7 @@ extension SensorReadingViewState: ViewRepresentable {
             let reactView = sensorView.reactView else {
                 return
         }
-        reactView.appProperties = reactDictionary
+        reactView.update(self)
     }
 
 }

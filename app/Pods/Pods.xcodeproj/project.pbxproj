@@ -6263,39 +6263,6 @@
 			};
 			name = Sprint;
 		};
-		11EBED47FB3D8E5D345EA45AF77EB9C5 /* Sprint */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
-				PRODUCT_MODULE_NAME = BLEAirQuality;
-				PRODUCT_NAME = BLEAirQuality;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Sprint;
-		};
 		121F924443456A1C399D8A62056C4A16 /* Sprint */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 930C64456F810690ED1F9EE36D57CB74 /* OHHTTPStubs.xcconfig */;
@@ -6822,6 +6789,40 @@
 			};
 			name = Develop;
 		};
+		3E186097DA4CEAAE8EB40F69E22D2F28 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
+				PRODUCT_MODULE_NAME = BLEAirQuality;
+				PRODUCT_NAME = BLEAirQuality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AppStore;
+		};
 		3EE5BEFB1AFDE7AC0DCF3F06427D8711 /* Develop */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19C9C806FE4EF524234B24D861C91FA7 /* SimulatorStatusMagic.xcconfig */;
@@ -7235,39 +7236,6 @@
 			};
 			name = Develop;
 		};
-		65662A4B6313FDE642C6CEAA626AA24A /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
-				PRODUCT_MODULE_NAME = BLEAirQuality;
-				PRODUCT_NAME = BLEAirQuality;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = AppStore;
-		};
 		672346CEF73FF8673007069BFED88930 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 637E8794380E2B6AD4D12FAA5F36E490 /* Pods-AirQualityDashboard.debug.xcconfig */;
@@ -7560,6 +7528,40 @@
 			};
 			name = Debug;
 		};
+		7D05B55FF7A26CAE518B47084D2EAB01 /* Sprint */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
+				PRODUCT_MODULE_NAME = BLEAirQuality;
+				PRODUCT_NAME = BLEAirQuality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Sprint;
+		};
 		7E1F20B1C8452F8E906E0A8DC339A1EB /* Sprint */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B7502DAFFC3A97454BF779B951D4F79 /* Alamofire.xcconfig */;
@@ -7691,38 +7693,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		87AD22773E9843BEC95BA3D4BD65ED39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
-				PRODUCT_MODULE_NAME = BLEAirQuality;
-				PRODUCT_NAME = BLEAirQuality;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8D2D37E7B625201AECC5A4C577D24C2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -8185,6 +8155,40 @@
 			};
 			name = Debug;
 		};
+		A405853E9AB844D482D91EB6EDB5171C /* Develop */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
+				PRODUCT_MODULE_NAME = BLEAirQuality;
+				PRODUCT_NAME = BLEAirQuality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Develop;
+		};
 		A4CA7AE193D3E7837CB9392C780554E9 /* Develop */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F5B183468913AAB163AE4938849CB11 /* yoga.xcconfig */;
@@ -8607,6 +8611,39 @@
 			};
 			name = AppStore;
 		};
+		D3F86BB46E9DC3E3EA03541C5A58FD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
+				PRODUCT_MODULE_NAME = BLEAirQuality;
+				PRODUCT_NAME = BLEAirQuality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D467EF0B1FD6B649688CADED2161213B /* Sprint */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 586092761D8C9DD7821282DD59563EE9 /* BonMot.xcconfig */;
@@ -8805,39 +8842,6 @@
 			};
 			name = AppStore;
 		};
-		E767EA8DF77C0B44B01E2A31EF15B35B /* Develop */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
-				PRODUCT_MODULE_NAME = BLEAirQuality;
-				PRODUCT_NAME = BLEAirQuality;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Develop;
-		};
 		E993CEDD585E4D66D7F97FF7044A9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E57776D7E4DE92613FFF72784F13EE1 /* glog.xcconfig */;
@@ -8993,39 +8997,6 @@
 			};
 			name = AppStore;
 		};
-		EF007F88C299DFE90FC167B170839846 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
-				PRODUCT_MODULE_NAME = BLEAirQuality;
-				PRODUCT_NAME = BLEAirQuality;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F34964E1DEB9C83FE2ACE017AEE94E4D /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C79A4921EABAF84EDD4BF2217FE733B1 /* React.xcconfig */;
@@ -9121,6 +9092,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = AppStore;
+		};
+		F443E38D53A226F48CBFF610B17A4890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB75CC0797D6C25D2314D84B47D5F85 /* BLEAirQuality.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLEAirQuality/BLEAirQuality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLEAirQuality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLEAirQuality/BLEAirQuality.modulemap";
+				PRODUCT_MODULE_NAME = BLEAirQuality;
+				PRODUCT_NAME = BLEAirQuality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		F4F84F7ABDCAE1693944504A18E912AA /* Sprint */ = {
 			isa = XCBuildConfiguration;
@@ -9393,11 +9398,11 @@
 		BEFE1F518C9D17F2218720ACAD912DDC /* Build configuration list for PBXNativeTarget "BLEAirQuality" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65662A4B6313FDE642C6CEAA626AA24A /* AppStore */,
-				87AD22773E9843BEC95BA3D4BD65ED39 /* Debug */,
-				E767EA8DF77C0B44B01E2A31EF15B35B /* Develop */,
-				EF007F88C299DFE90FC167B170839846 /* Release */,
-				11EBED47FB3D8E5D345EA45AF77EB9C5 /* Sprint */,
+				3E186097DA4CEAAE8EB40F69E22D2F28 /* AppStore */,
+				D3F86BB46E9DC3E3EA03541C5A58FD0A /* Debug */,
+				A405853E9AB844D482D91EB6EDB5171C /* Develop */,
+				F443E38D53A226F48CBFF610B17A4890 /* Release */,
+				7D05B55FF7A26CAE518B47084D2EAB01 /* Sprint */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -210,7 +210,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Anchorage: cba8707ea6475f604e04047882ba47c07e4b2ac1
-  BLEAirQuality: e0cea802e7a501fa18a2427b4241340a68b69989
+  BLEAirQuality: d849973c6ea5d53af1654d393dfde652e120a1f3
   BonMot: 68da0bd7c2f602aca85511bedabd211eb0fae666
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
